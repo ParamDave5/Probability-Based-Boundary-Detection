@@ -2,7 +2,7 @@
 
 This repository consists of comparison of baseline edge detection algorithms like Canny and Sobel with [Probability of boundary detection algorithm](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/papers/amfm_pami2010.pdf). A simpler version of PB algorithm has been implemented which considers texture, color and intensity discontinuities. This algorithm predicts per pixel probability of the boundary detected. The original image and the output of implementation is shown below:
 
-<img src="Phase1/BSDS500/Images/3.jpg" align="center" alt="Original" width="400"/> <img src="Phase1/results/PbLite/PbLite_3.png" align="center" alt="PBLite" width="400"/>
+<img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/a857633f9c805d2ab404d2ee422ae9dac2f94aba/Outputs/10.jpg" align="center" alt="Original" width="400"/> <img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/a857633f9c805d2ab404d2ee422ae9dac2f94aba/Outputs/Using%20all%20Filters/IMAGE%2010/PbLite10.png" alt="PBLite" width="400"/>
 
 The algorithm of PBLite detection is shown below:
 
