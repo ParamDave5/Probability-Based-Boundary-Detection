@@ -19,11 +19,11 @@ The filter banks implemented for low-level feature extraction are Oriented Deriv
 Filter banks can be used for extraction of texture properties but here all the three filter banks are combined which results into vector of filter responses. As filter response vectors are generated, they are clustered together using k-means clustering. For Texton Maps k = 64 is used; Color and Brightness Maps k= 16 is used.
 
 
-<img src="Phase1/results/TextonMap/TextonMap_3.png" align="center" alt="DoG" width="250"/> <img src="Phase1/results/ColorMap/colormap_3.png" align="center" alt="PBLite" width="250"/> <img src="Phase1/results/BrightnessMap/BrightnessMap_3.png" align="center" alt="PBLite" width="250"/>
+<img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/eb0ab5bede8fa18b666c3d3bf1886afc6353da77/Outputs/Using%20all%20Filters/IMAGE%2010/TextonMap_10.png" align="center" alt="DoG" width="250"/> <img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/eb0ab5bede8fa18b666c3d3bf1886afc6353da77/Outputs/Using%20all%20Filters/IMAGE%2010/C_Map_10.png" align="center" alt="PBLite" width="250"/> <img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/eb0ab5bede8fa18b666c3d3bf1886afc6353da77/Outputs/Using%20all%20Filters/IMAGE%2010/B_Map_10.png" align="center" alt="PBLite" width="250"/>
 
 The gradient measurement is performed to know how much all features distribution is changing at a given pixel. For this purpose, half-disc masks are used.
 
-<img src="Phase1/results/TextonGradient/Tg_3.png" align="center" alt="PBLite" width="250"/> <img src="Phase1/results/ColorGradient/Cg_3.png" align="center" alt="PBLite" width="250"/> <img src="Phase1/results/BrightnessGradient/Bg_3.png" align="center" alt="PBLite" width="250"/>
+<img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/eb0ab5bede8fa18b666c3d3bf1886afc6353da77/Outputs/Using%20all%20Filters/IMAGE%2010/Tg_10.png" align="center" alt="PBLite" width="250"/> <img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/eb0ab5bede8fa18b666c3d3bf1886afc6353da77/Outputs/Using%20all%20Filters/IMAGE%2010/Cg_10.png" align="center" alt="PBLite" width="250"/> <img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/eb0ab5bede8fa18b666c3d3bf1886afc6353da77/Outputs/Using%20all%20Filters/IMAGE%2010/Bg_10.png" align="center" alt="PBLite" width="250"/>
 
 ## Step 3: Pb-Score
 The gradient maps which are generated are combined with classical edge detectors like Canny and Sobel baselines for weighted avaerage.
