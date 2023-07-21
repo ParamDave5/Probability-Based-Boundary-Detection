@@ -32,20 +32,6 @@ The gradient maps which are generated are combined with classical edge detectors
 ```
 python Wrapper.py
 ```
-# File structure
-    Phase1
-    ├── Code
-    |  ├── Wrapper.py
-    ├── Data
-    |  ├── BSDS500
-    ├── results
-    |  ├── BrightnessGradient
-    |  ├── Brightness_map
-    |  ├── ColorGradient
-    |  ├── Color_map
-    |  ├── PbLite
-    |  ├── TextonGradient
-    |  ├── TextonMap
-    |  ├── Other filter outputs
+
 
 This was implemented as part of [CMSC733](https://cmsc733.github.io/2022/hw/hw0/) and for detailed report refer [here](https://github.com/naitri/Probability_based_Boundary_Detection/blob/main/Report.pdf)
