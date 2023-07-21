@@ -6,7 +6,7 @@ This repository consists of comparison of baseline edge detection algorithms lik
 
 The algorithm of PBLite detection is shown below:
 
-<img src="Phase1/results/hw0.png" align="center" alt="PBLite"/>
+<img src="https://github.com/ParamDave5/Probability-Based-Boundary-Detection/blob/da6f2ff26d046948fb67f22ea9debe75c1f68a7d/Outputs/hw0.png" align="center" alt="PBLite"/>
 
 The main steps for implementing the same are:
 
